@@ -244,7 +244,7 @@ esto es para que si un elemento rota no me muestre todo revuelto*/
                     }
                     
                     .tarjeta {
-                        height: 350px;
+                        height: 288px;
                         /*background: #A99A5D;*/
                         background: url(imagenes/pruebabackground.jpg);
                         position: relative;
