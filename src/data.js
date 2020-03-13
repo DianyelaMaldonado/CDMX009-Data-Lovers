@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     cargarJSON();
 });
 
@@ -11,7 +11,7 @@ function cargarJSON() { //esta función hace la conexión y definimos como quere
             return res.json()
         }) //indicamos que queremos un json
         //como en el return de arriba le decimos que queremos un json,aquí lo que hace es formatearlo y darnos este resultado
-        .then(function(result_json) {
+        .then(function (result_json) {
             let html = '';
             //let card = '';
             //let x = 1;
@@ -37,10 +37,10 @@ function cargarJSON() { //esta función hace la conexión y definimos como quere
             cardsprueba.innerHTML = html;
             //console.log(html);
         })
-        .then(function() {
+        .then(function () {
             let callcard = document.querySelectorAll(".tarjeta");
-            callcard.forEach(function(card) {
-                card.onclick = function() {
+            callcard.forEach(function (card) {
+                card.onclick = function () {
                     //console.log(card);
                     // var image = c.getElementByTagName('img').getAttribute("src");
                     //console.log(this.getAttribute("nombre"));
@@ -63,7 +63,7 @@ function cargarJSONdos(nombreCampeon) {
         .then(res2 => {
             return res2.json()
         })
-        .then(function(result_json2) {
+        .then(function (result_json2) {
             //console.log(result_json2);
             let html2 = "";
             let data_avat = result_json2.data[nombreCampeon];
@@ -119,12 +119,12 @@ function cargarJSONdos(nombreCampeon) {
             //console.log(html2);
             onlyChampion.innerHTML = html2;
 
-        }).then(function() {
+        }).then(function () {
             window.scrollTo(0, 0);
         })
 
-    .then(function() {
-        back();
-    })
+        .then(function () {
+            back();
+        })
 
 }
