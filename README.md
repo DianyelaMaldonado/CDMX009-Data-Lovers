@@ -52,7 +52,7 @@ compartir como los grandes sus habilidades mas preciadas.
 
  >La primera imagen vendría siendo la página principal, por decirlo de alguna forma, la cara de la página.
 
-![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/prototipoEnBaja-1.jpg)![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Cambios-readme/prototipoEnBaja-2.jpg)
+![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/prototipoEnBaja-1.jpg)![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/Cambios-readme/Readme/prototipoEnBaja-2.jpg)
 
 
   ***Feedback***
