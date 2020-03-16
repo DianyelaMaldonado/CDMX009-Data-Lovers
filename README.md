@@ -82,27 +82,27 @@ ___
 - Crear una función en javascript en donde se le de funcionalidad al objetivo deseado utilizando los datos de la maqueta ya creada.
 ___
 
-***Objetivos de aprendizaje***
+***Objetivos de aprendizaje*** <br>
 El objetivo principal de este proyecto es que, entendiendo las necesidades de tus usuarios, aprendas a diseñar y construir una interfaz web donde se pueda visualizar y manipular data.
 
-**UX**
+**UX** <br>
 ✅ Diseñar la aplicación pensando y entendiendo al usuario <br>
 ✅Crear prototipos para obtener feedback e iterar <br>
 ✅Aplicar los principios de diseño visual (contraste, alineación, jerarquía).<br>
 ✅ Planear y ejecutar tests de usabilidad.<br>
  
-**HTML y CSS**
+**HTML y CSS** <br>
 ✅Entender y reconocer por qué es importante el HTML semántico. <br>
 ✅Identificar y entender tipos de selectores en CSS.<br>
 ✅Entender como funciona flexbox en CSS. <br>
 ✅Construir tu aplicación respetando el diseño planeado (maquetación). <br>
  
-**DOM**
+**DOM** <br>
 ✅Entender y reconocer los selectores del DOM (querySelector | querySelectorAll). <br>
 ✅Manejar eventos del DOM. (addEventListener). <br>
 ✅Manipular dinámicamente el DOM. (createElement, appendchild, innerHTML, value). <br>
  
-**Javascript**
+**Javascript** <br>
  Manipular arrays (filter | map | sort | reduce).<br>
 ✅Manipular objects (key | value).<br>
 ✅Entender el uso de condicionales (if-else | switch).<br>
@@ -112,15 +112,15 @@ El objetivo principal de este proyecto es que, entendiendo las necesidades de tu
 🚫Entender la diferencia entre tipos de datos atómicos y estructurados.<br>
 🚫Utilizar ES Modules (import | export).<br>
  
-**Pruebas Unitarias (testing)**
+**Pruebas Unitarias (testing)** <br>
 🚫Testear funciones (funciones puras).<br>
  
-**Git y GitHub**
+**Git y GitHub** <br>
 ✅Ejecutar comandos de git (add | commit | pull | status | push).<br>
 ✅Utilizar los repositorios de GitHub (clone | fork | gh-pages).<br>
 ➕➖Colaborar en Github (pull requests).<br>
  
-**Buenas prácticas de desarrollo**
+**Buenas prácticas de desarrollo** <br>
 🚫Organizar y dividir el código en módulos (Modularización).<br>
 ✅Utilizar identificadores descriptivos (Nomenclatura | Semántica).<br>
 ✅Utilizar linter para seguir buenas prácticas (ESLINT).<br>
