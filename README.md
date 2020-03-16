@@ -70,12 +70,12 @@ compartir como los grandes sus habilidades mas preciadas.
 - Logo.
 - cards ya sean estáticas o con movilidad.
 ___
- 2.  El Usuario requiere que en la página web hayan botones en los que se le facilite filtrar la información de los mismos por medio de las habilidades que los caracterizan.
+ 2.  El Usuario requiere que en la página web hayan botones en los que se le facilite filtrar la información de los mismos por medio de las habilidades que los caracterizan. <br>
  **Tareas:**
 - Diseño de buscador.
 - Función de filtrado.
 ___
-3. El usuario requiere que al darle click a una tarjeta en específico salga más información del campeón al que está accediendo y que tenga un botón de regreso para poder accesar a más tarjetas.
+3. El usuario requiere que al darle click a una tarjeta en específico salga más información del campeón al que está accediendo y que tenga un botón de regreso para poder accesar a más tarjetas. <br>
 **Tareas:**
 - Crear una maqueta aparte para ver como quedaría, utilizando ccs y html y se requiere javascript también, la maqueta contendría información visual del cómo se vería la ventana al acceder a los datos de la api para enseñarlos al usuario.
 - Crear una función en javascript en donde se le de funcionalidad al objetivo deseado utilizando los datos de la maqueta ya creada.
