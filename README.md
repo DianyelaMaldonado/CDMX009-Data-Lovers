@@ -81,5 +81,50 @@ ___
 - Crear una maqueta aparte para ver como quedaría, utilizando ccs y html y se requiere javascript también, la maqueta contendría información visual del cómo se vería la ventana al acceder a los datos de la api para enseñarlos al usuario.
 - Crear una función en javascript en donde se le de funcionalidad al objetivo deseado utilizando los datos de la maqueta ya creada.
 ___
+
+***Objetivos de aprendizaje***
+El objetivo principal de este proyecto es que, entendiendo las necesidades de tus usuarios, aprendas a diseñar y construir una interfaz web donde se pueda visualizar y manipular data.
+
+**UX**
+✅ Diseñar la aplicación pensando y entendiendo al usuario <br>
+✅Crear prototipos para obtener feedback e iterar <br>
+✅Aplicar los principios de diseño visual (contraste, alineación, jerarquía).<br>
+✅ Planear y ejecutar tests de usabilidad.<br>
+ 
+**HTML y CSS**
+✅Entender y reconocer por qué es importante el HTML semántico. <br>
+✅Identificar y entender tipos de selectores en CSS.<br>
+✅Entender como funciona flexbox en CSS. <br>
+✅Construir tu aplicación respetando el diseño planeado (maquetación). <br>
+ 
+**DOM**
+✅Entender y reconocer los selectores del DOM (querySelector | querySelectorAll). <br>
+✅Manejar eventos del DOM. (addEventListener). <br>
+✅Manipular dinámicamente el DOM. (createElement, appendchild, innerHTML, value). <br>
+ 
+**Javascript**
+ Manipular arrays (filter | map | sort | reduce).<br>
+✅Manipular objects (key | value).<br>
+✅Entender el uso de condicionales (if-else | switch).<br>
+✅Entender el uso de bucles (for | forEach).<br>
+🚫Entender la diferencia entre expression y statements.<br>
+✅Utilizar funciones (parámetros | argumentos | valor de retorno).<br>
+🚫Entender la diferencia entre tipos de datos atómicos y estructurados.<br>
+🚫Utilizar ES Modules (import | export).<br>
+ 
+**Pruebas Unitarias (testing)**
+🚫Testear funciones (funciones puras).<br>
+ 
+**Git y GitHub**
+✅Ejecutar comandos de git (add | commit | pull | status | push).<br>
+✅Utilizar los repositorios de GitHub (clone | fork | gh-pages).<br>
+➕➖Colaborar en Github (pull requests).<br>
+ 
+**Buenas prácticas de desarrollo**
+🚫Organizar y dividir el código en módulos (Modularización).<br>
+✅Utilizar identificadores descriptivos (Nomenclatura | Semántica).<br>
+✅Utilizar linter para seguir buenas prácticas (ESLINT).<br>
+ 
+ 
  
  
