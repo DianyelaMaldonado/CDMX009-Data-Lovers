@@ -55,6 +55,30 @@ compartir como los grandes sus habilidades mas preciadas.
 ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/prototipoEnBaja-1.jpg)
 
 
-  
   ***Feedback***
  > En cuanto al feedback primero enseñamos a algunas personas la idea de lo que sería el proyecto, seguidamente el prototipo final, en la que el usuario tuvo buena percepción del mismo.
+  ___
+ 
+ ***Historias de usuario***
+ 
+1. El Usuario requiere una página web con interfaz amigable,que le permita acceder a información mediante cartas de personajes de league of legends en donde pueda conocer más sobre ellos y si tienen efecto de movilidad mucho mejor.
+  **Tareas:**
+- Lógica y funcionamiento de la app.
+ - Un prototipo (Mockup) del cómo queremos que se vea la página donde debe contener:
+ - Sketch de wireframe dividido por las secciones que integran la app.
+- Selección del sistema visual: Paleta de colores,tipografía, íconos...
+- Logo.
+- cards ya sean estáticas o con movilidad.
+___
+ 2.  El Usuario requiere que en la página web hayan botones en los que se le facilite filtrar la información de los mismos por medio de las habilidades que los caracterizan.
+ **Tareas:**
+- Diseño de buscador.
+- Función de filtrado.
+___
+3. El usuario requiere que al darle click a una tarjeta en específico salga más información del campeón al que está accediendo y que tenga un botón de regreso para poder accesar a más tarjetas.
+**Tareas:**
+- Crear una maqueta aparte para ver como quedaría, utilizando ccs y html y se requiere javascript también, la maqueta contendría información visual del cómo se vería la ventana al acceder a los datos de la api para enseñarlos al usuario.
+- Crear una función en javascript en donde se le de funcionalidad al objetivo deseado utilizando los datos de la maqueta ya creada.
+___
+ 
+ 
