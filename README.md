@@ -39,9 +39,9 @@ compartir como los grandes sus habilidades mas preciadas.
 
 >De la misma manera encontramos cartas con efecto flip (giratorio), allí presentamos al champ, si el usuario da click se abre una ventana con información especifica de ese único campeón, en donde hay un botón de regreso en el que puede seguir interactuando con las cards y conociendo las habilidades diferentes que tiene cada personaje.
 
-![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/ON-Ranked01.png)
+![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/On-Ranked01.png)
 
-![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/ON-Ranked02.png)
+![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/On-Ranked02.png)
 
 
 
