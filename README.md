@@ -50,7 +50,9 @@ compartir como los grandes sus habilidades mas preciadas.
  >El prototipo que realizamos, algo sencillo de como teníamos en mente que se viera el proyecto al final.La primera imagen vendría siendo la página principal, por decirlo de alguna forma, la cara de la página.
 
 ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/prototipoEnBaja-1.jpg)
->La segunda imagen es la ventana que se abriría al darle click a la card de un campeón con información más detallada del mismo.
+
+>La segunda imagen es la ventana que se abriría al darle click a la card de un campeón con información más detallada.
+
 ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/feature/Cambios-readme/Readme/prototipoEnBaja-2.jpg)
 
 
