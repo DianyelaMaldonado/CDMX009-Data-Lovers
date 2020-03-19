@@ -94,7 +94,7 @@ legend {
     display: none
 }
 
-:focus {
+ :focus {
     outline: 0
 }
 
@@ -168,7 +168,7 @@ ol {
 
 body {
     font-family: 'Russo One', sans-serif;
-    background: url(imagenes/background.png);
+    background: url(imagenes/background03.png);
 }
 
 * {
@@ -189,27 +189,34 @@ header {
     color: #A99A5D;
 }
 
+.logo {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    float: left;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    margin-left: -200px;
+}
 
-/* .logo {
-            width: 100%;
-            height: auto;
-            font-size: 20px;
-            float: left;
-            margin-top: 35px;
-            margin-bottom: 5px;
-        }
-        
-        .logo img {
-            display: block;
-            float: left;
-            height: 70px;
-            margin-top: -5px;
-            margin-right: 1px;
-        }
-         */
+.logo img {
+    display: block;
+    float: left;
+    height: 70px;
+    margin-top: -20px;
+    margin-right: 10px;
+    padding-right: 8px;
+    padding-left: 30px;
+}
+
+.brand {
+    display: block;
+    margin: 0px;
+    float: left;
+}
 
 .menu {
-    width: 70%;
+    width: 100%;
     float: center;
     font-size: 20;
     font-family: 'Russo One', sans-serif;
@@ -227,8 +234,18 @@ header {
 .menu ul li {
     list-style: none;
     display: inline-block;
-    height: 46px;
     color: #A99A5D;
+}
+
+.menu ul li button {
+    list-style: none;
+    display: inline-block;
+    color: #A99A5D;
+    border-radius: 6px;
+    border: 1px solid #A99A5D;
+    line-height: 37px;
+    padding: 0 5px;
+    margin: 0 20px;
 }
 
 nav {
@@ -245,6 +262,24 @@ nav {
     margin: 0px;
     float: left;
 }
+
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b6 {
+    width: 25px;
+    height: auto;
+    color: #A99A5D;
+    background-color: rgb(6, 23, 40);
+    margin-top: 5px;
+    float: right;
+    margin-left: 5px;
+}
+
+
+/*----------------- tarjetas---------------*/
 
 .probandotitulo {
     color: #A99A5D;
@@ -386,6 +421,7 @@ nav {
     color: white;
     display: flex;
     font-size: 60px;
+    font-family: 'Russo One', sans-serif;
 }
 
 .positionRol {
@@ -421,12 +457,14 @@ div h2 .championname {
 }
 
 .imghab {
-    width: 38px;
-    height: 38px;
+    width: 40px;
+    height: 50px;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .infohabilidades {
     text-align: center;
+    font-size: 28px;
     padding-top: 60px;
     padding-bottom: 40px;
     color: #A99A5D;
@@ -498,7 +536,7 @@ h1 {
     color: #A99A5D;
     margin: 2px;
     padding: 5px;
-    font-size: 50px;
+    font-size: 30px;
     text-shadow: 2px 2px 4px #000000;
 }
 

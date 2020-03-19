@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     cargarJSON();
 });
 
@@ -11,7 +11,7 @@ function cargarJSON() { //esta función hace la conexión y definimos como quere
             return res.json()
         }) //indicamos que queremos un json
         //como en el return de arriba le decimos que queremos un json,aquí lo que hace es formatearlo y darnos este resultado
-        .then(function (result_json) {
+        .then(function(result_json) {
             let html = '';
             //let card = '';
             //let x = 1;
@@ -37,10 +37,10 @@ function cargarJSON() { //esta función hace la conexión y definimos como quere
             cardsprueba.innerHTML = html;
             //console.log(html);
         })
-        .then(function () {
+        .then(function() {
             let callcard = document.querySelectorAll(".tarjeta");
-            callcard.forEach(function (card) {
-                card.onclick = function () {
+            callcard.forEach(function(card) {
+                card.onclick = function() {
                     //console.log(card);
                     // var image = c.getElementByTagName('img').getAttribute("src");
                     //console.log(this.getAttribute("nombre"));
@@ -63,7 +63,7 @@ function cargarJSONdos(nombreCampeon) {
         .then(res2 => {
             return res2.json()
         })
-        .then(function (result_json2) {
+        .then(function(result_json2) {
             //console.log(result_json2);
             let html2 = "";
             let data_avat = result_json2.data[nombreCampeon];
@@ -92,19 +92,19 @@ function cargarJSONdos(nombreCampeon) {
                       <p class="infohabilidades">ABILITIES</p>
                       <ul>
                          <li class="attack">
-                              <img class="imghab" src="imagenes/ataque.png" alt="">
+                              <img class="imghab" src="imagenes/atacke.png" alt="">
                               <p>Attak ${data_avat['info'].attack}</p>
                           </li>
                           <li class="defense">
-                              <img class="imghab" src="imagenes/defensa.png" alt="">
+                              <img class="imghab" src="imagenes/escudo.png" alt="">
             <p>defense ${data_avat['info'].defense} </p>
                   </li>
                          <li class="magic">
-                              <img class="imghab" src="imagenes/magia.png" alt="">
+                              <img class="imghab" src="imagenes/maguc.png" alt="">
                               <p>magical ${data_avat['info'].magic}</p>
                           </li>
                          <li class="difficulty">
-                              <img class="imghab" src="imagenes/dificultad.png" alt="">
+                              <img class="imghab" src="imagenes/flame.png" alt="">
                               <p>difficulty ${data_avat['info'].difficulty}</p>
                           </li>
                       </ul>
@@ -119,12 +119,12 @@ function cargarJSONdos(nombreCampeon) {
             //console.log(html2);
             onlyChampion.innerHTML = html2;
 
-        }).then(function () {
+        }).then(function() {
             window.scrollTo(0, 0);
         })
 
-        .then(function () {
-            back();
-        })
+    .then(function() {
+        back();
+    })
 
 }
