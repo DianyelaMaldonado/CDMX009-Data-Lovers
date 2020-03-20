@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function cargarJSON() { //esta función hace la conexión y definimos como queremos que los devuleva, ya sea como texto JSON u otros metodos
     let cardsprueba = document.querySelector('#cardsprueba');
-    fetch('http://localhost:64226/data/lol/lol.json')
+    fetch('http://localhost:5000/data/lol/lol.json')
         .then(res => {
             return res.json()
         }) //indicamos que queremos un json

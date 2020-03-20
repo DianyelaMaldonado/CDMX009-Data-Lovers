@@ -514,7 +514,7 @@ div h2 .championname {
 }
 
 
-/*SLIDER*/
+/* ----------------------------S L I D E R -------------------------------*/
 
 h1 {
     font-family: 'Russo One', sans-serif;
@@ -537,90 +537,27 @@ h1 {
     text-shadow: 2px 2px 4px #000000;
 }
 
-.text2 {
-    font-family: 'Russo One', sans-serif;
-    text-align: center;
+.buttonprev,
+.buttonext {
     color: #A99A5D;
-    margin: 2px;
-    padding: 5px;
-    font-size: 30px;
-    justify-content: center;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-.slideOneSeccion {
-    justify-content: center;
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-    text-align: center;
-}
-
-.slide-show {
-    justify-content: center;
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-    text-align: center;
-}
-
-
-/*-----------------.myslide-----------------------------*/
-
-#slide-show {
-    width: 100vw;
-    margin: auto;
-    display: block;
-}
-
-#slide-content {
-    width: 100%;
-    margin: auto;
-    display: inline-grid;
-    overflow-x: scroll;
-    overflow-y: hidden;
-}
-
-#nav {
-    display: flex;
-    color: #A99A5D;
-}
-
-#prev,
-#next {
+    border-radius: 50px;
+    border: 2px solid #A99A5D;
+    background-color: rgb(6, 23, 40);
+    cursor: pointer;
+    font-size: 36px;
     width: 50px;
     height: 50px;
-    border: solid 1px #A99A5D;
-    border-radius: 100px;
-    margin: auto;
-    display: block;
-    background-color: transparent;
-    color: #A99A5D;
-    font-size: 30px;
-    font-weight: 100;
-    text-shadow: 1px 1px 2px #000;
-    box-shadow: 1px 1px 2px #000;
 }
 
-li.slide {
-    width: 100%;
-    margin: auto 100px;
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slidecontentlist {
     list-style: none;
     text-align: center;
-}
-
-.slide img {
-    width: 400px;
-    margin: 50px auto;
-    display: block;
-    -webkit-filter: brightness(65%);
-    filter: brightness(60%);
-    transition: .5s;
-}
-
-.slide img:hover {
-    -webkit-filter: brightness(100%);
-    filter: brightness(100%);
+    padding: 0px;
 }
 
 #reflector {
