@@ -281,13 +281,9 @@ nav {
 
 /*----------------- tarjetas---------------*/
 
-.probandotitulo {
-    color: #A99A5D;
-    text-align: center;
-}
-
 .wrap {
-    width: 1100px;
+    width: 100%;
+    max-width: 1100px;
     margin: 50px auto;
     display: flex;
     /*esto para que en lugar de quedar una debajo de la otra, queden una al lado de la otra*/
@@ -526,6 +522,7 @@ h1 {
     color: #A99A5D;
     margin: 5px;
     padding: 15px;
+    padding-top: 50px;
     font-size: 28px;
     text-shadow: 2px 2px 4px #000000;
 }
@@ -606,8 +603,7 @@ h1 {
 }
 
 li.slide {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     margin: auto 100px;
     list-style: none;
     text-align: center;
@@ -630,8 +626,7 @@ li.slide {
 #reflector {
     width: 250px;
     height: 20px;
-    margin: -100px auto;
-    display: inline-flex;
+    margin: 0px auto;
     background-color: #52b5df;
     border-radius: 100px;
     background-blend-mode: lighten;
@@ -641,45 +636,125 @@ li.slide {
 }
 
 
-/* -------------R E S P O N S I V E --------------------*/
+/* ----------------------------R E S P O N S I V E -------------------------------*/
 
-@media (max-width:1107px) {
-    h1 {
-        width: 240px;
-        float: none;
-        margin: 0px auto;
-    }
-}
 
-@media (max-width:1102px) {
-    header .header {
-        float: none !important;
-        display: block;
-        text-align: left;
-        border-top: 5px solid #A99A5D;
-    }
-}
+/* .....................Movile........................*/
 
-@media (max-width:1100px) {
-    h1 {
-        justify-content: center;
+@media only screen and (max-width: 767px) {
+    body {
+        background: url(imagenes/backgroundmovile.png);
     }
-    .tarjeta-wrap {
-        width: 33.3%;
-        padding-bottom: 10px;
-        /*esto es para que se vea una separación entre cada una*/
-        width: 500px;
-        height: auto;
-        max-width: 50%;
+    li.slide {
+        margin: 0;
     }
-}
-
-@media (max-width:1098px) {
-    h1 {
-        width: 240px;
-        float: none;
-        margin: 0px auto;
+    .slide img {
+        width: 150px;
+        margin: 50px 150px;
+    }
+    #prev,
+    #next {
+        width: 30px;
+        height: 30px;
+        border: solid 1px #A99A5D;
+        border-radius: 100px;
+        margin: auto;
+        color: #A99A5D;
+        font-size: 20px;
+        text-shadow: 1px 1px 2px #000;
+        box-shadow: 1px 1px 2px #000;
+    }
+    .probandotitulo {
+        font-family: 'Russo One', sans-serif;
         text-align: center;
-        justify-content: center;
+        color: #A99A5D;
+        margin: 5px;
+        padding: 15px;
+        padding-top: 50px;
+        font-size: 14px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    #reflector {
+        height: 8px;
+        margin: 0px auto;
+        display: inherit;
+    }
+    .tarjeta {
+        height: 100px;
+    }
+    .logo {
+        margin-left: -80px;
+    }
+    .menu {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .menu ul {
+        line-height: 45px;
+        font-size: x-small;
+    }
+    .menu ul li button {
+        margin: 0 2px;
+    }
+}
+
+
+/* .....................Tablet Vertical........................*/
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background: url(imagenes/backgroundTabletvertical.png);
+    }
+    li.slide {
+        margin: 0;
+    }
+    #reflector {
+        margin: 0px auto;
+        display: block;
+    }
+    .tarjeta {
+        height: 190px;
+    }
+    .logo {
+        margin-left: -120px;
+    }
+    .menu {
+        width: 80%;
+        margin: 0px auto;
+    }
+    .menu ul {
+        line-height: 45px;
+    }
+    .menu ul li button {
+        margin: 0 5px;
+    }
+}
+
+
+/* .....................Tablet Horizontal........................*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    body {
+        background: url(imagenes/backgroundTablet.png);
+    }
+    li.slide {
+        margin: 0;
+    }
+    #reflector {
+        margin: 0px auto;
+        display: block;
+    }
+    .tarjeta {
+        height: 190px;
+    }
+    .menu {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .menu ul {
+        line-height: 45px;
+    }
+    .menu ul li button {
+        margin: 0 5px;
     }
 }
