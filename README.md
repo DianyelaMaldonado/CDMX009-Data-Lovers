@@ -90,16 +90,16 @@ ___
 >**El proyecto cuenta con diseño responsive tanto para móviles, tablets y Desktop.
 a continuación una pequeña muestra visual:**
 
-**Responsive para móvil de la parte delantera**: <br>
+**Responsive para móvil de la parte delantera**: 
 ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/responsivemovil1.png)
 
-**Responsive para móvil interacción con una card en específico de un campeón:** <br>
-![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/responsivemovil2.png)
+**Responsive para móvil interacción con una card en específico de un campeón:** 
+![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/reponsive-movil-2)
 
-**Responsive para tablet en Portrait: orientación vertical:**<br>
+**Responsive para tablet en Portrait: orientación vertical:**
 ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/responsivetablet-vertical.png)
 
-**Responsive para tablet en Landscape: orientación horizontal:**<br>
+**Responsive para tablet en Landscape: orientación horizontal:**
 ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/responsivetabletenhorizontal.png)
 
 
