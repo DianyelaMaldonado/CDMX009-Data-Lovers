@@ -10,12 +10,6 @@ Claming:
 ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/logofinal.png)
 
 
-
-
-
-
-
-
 >On-raked es el momento exacto en el que se conectan tus habilidades con el esfuerzo de tu
 practica y el valor de tu tiempo. Un espacio que pretende acercarte la satisfacción de retarte a ti mismo, envolviéndote en caminos rigurosos que te llevarán a una constante evolución. Un camino dispuesto a activar el mayor poder que se nos fue concedido: el conocimiento.Para ser parte de una comunidad dispuesta a representar a su avatar ideal.
 
@@ -96,16 +90,16 @@ ___
 >**El proyecto cuenta con diseño responsive tanto para móviles, tablets y Desktop.
 a continuación una pequeña muestra visual:**
 
-**Responsive para móvil de la parte delantera**:
-![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/responsivemovil1.jpg)
+**Responsive para móvil de la parte delantera**: <br>
+![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/responsivemovil1.png)
 
-**Responsive para móvil interacción con una card en específico de un campeón:**
+**Responsive para móvil interacción con una card en específico de un campeón:** <br>
 ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/responsivemovil2.png)
 
-**Responsive para tablet en Portrait: orientación vertical:**
+**Responsive para tablet en Portrait: orientación vertical:**<br>
 ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/responsivetablet-vertical.png)
 
-**Responsive para tablet en Landscape: orientación horizontal:**
+**Responsive para tablet en Landscape: orientación horizontal:**<br>
 ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/responsivetabletenhorizontal.png)
 
 
