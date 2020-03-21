@@ -94,7 +94,7 @@ a continuación una pequeña muestra visual:**
 ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/responsivemovil1.png)
 
 **Responsive para móvil interacción con una card en específico de un campeón:** <br>
-![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/reponsive-movil-dos)
+![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/feacture/descripcion-responsive-readme/Readme/reponsive-movil-dos)
 
 **Responsive para tablet en Portrait: orientación vertical:**<br>
 ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/responsivetablet-vertical.png)
