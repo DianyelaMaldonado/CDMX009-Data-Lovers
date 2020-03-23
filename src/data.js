@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function cargarJSON() { //esta función hace la conexión y definimos como queremos que los devuleva, ya sea como texto JSON u otros metodos
 
-
-    .then(res => {
+    fetch('http://ddragon.leagueoflegends.com/cdn/10.6.1/data/en_US/champion.json')
+        .then(res => {
             return res.json()
         }) //indicamos que queremos un json
         //como en el return de arriba le decimos que queremos un json,aquí lo que hace es formatearlo y darnos este resultado
