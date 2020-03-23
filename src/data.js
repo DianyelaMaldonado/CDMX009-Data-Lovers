@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function cargarJSON() { //esta función hace la conexión y definimos como queremos que los devuleva, ya sea como texto JSON u otros metodos
 
-    fetch('http://localhost:5000/data/lol/lol.json')
-        .then(res => {
+
+    .then(res => {
             return res.json()
         }) //indicamos que queremos un json
         //como en el return de arriba le decimos que queremos un json,aquí lo que hace es formatearlo y darnos este resultado
@@ -22,7 +22,7 @@ function cargarJSON() { //esta función hace la conexión y definimos como quere
                             <div class="tarjeta" data-nombre="${data_champion['id']}">
                                     <div class="adelante card1">
                                          <h2>${data_champion['name']}</h2>
-                                         <img class="img-fluid" src="${data_champion['splash']}" alt="">
+                                         <img class="img-fluid" src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/${data_champion['id']}_0.jpg" alt="">
                                     </div>
                                    <div class="atras">
                                  <p class="card-text">#${data_champion['blurb']}</p>
@@ -134,7 +134,7 @@ function filterChamps() {
                             <div class="tarjeta" data-nombre="${data_champion['id']}">
                                     <div class="adelante card1">
                                          <h2>${data_champion['name']}</h2>
-                                         <img class="img-fluid" src="${data_champion['splash']}" alt="">
+                                         <img class="img-fluid" src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/${data_champion['id']}_0.jpg" alt="">
                                     </div>
                                    <div class="atras">
                                  <p class="card-text">#${data_champion['blurb']}</p>
