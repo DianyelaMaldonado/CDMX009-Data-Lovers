@@ -56,7 +56,7 @@ compartir como los grandes sus habilidades mas preciadas.
 
 >La segunda imagen es la ventana que se abriría al darle click a la card de un campeón con información más detallada.
 
-![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/feature/Cambios-readme/Readme/prototipoEnBaja-2.jpg)
+![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/prototipoEnBaja-2.jpg)
 
 
   ***Feedback***
