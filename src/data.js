@@ -1,25 +1,23 @@
 document.addEventListener("DOMContentLoaded", function() {
+    var cardsprueba = document.querySelector('#cardsprueba');
     cargarJSON();
 });
 
-//document.getElementById('onlyChampion').addEventListener('click', cargarJSONdos);
-
 function cargarJSON() { //esta función hace la conexión y definimos como queremos que los devuleva, ya sea como texto JSON u otros metodos
-    let cardsprueba = document.querySelector('#cardsprueba');
-    fetch('http://localhost:64127/data/lol/lol.json')
+
+    fetch('http://localhost:5000/data/lol/lol.json')
         .then(res => {
             return res.json()
         }) //indicamos que queremos un json
         //como en el return de arriba le decimos que queremos un json,aquí lo que hace es formatearlo y darnos este resultado
         .then(function(result_json) {
             let html = '';
-            //let card = '';
-            //let x = 1;
             let champions = result_json.data;
+            window.champions = champions;
             for (var champion in champions) {
-                //if (x <= 2) {}
+
                 let data_champion = champions[champion];
-                //console.log(data_champion['name']);
+
                 html += `<div class="tarjeta-wrap">
                             <div class="tarjeta" data-nombre="${data_champion['id']}">
                                     <div class="adelante card1">
@@ -32,30 +30,16 @@ function cargarJSON() { //esta función hace la conexión y definimos como quere
                             </div>
                         </div>
                     `;
-                //x++;
             }
             cardsprueba.innerHTML = html;
-            //console.log(html);
         })
         .then(function() {
-            let callcard = document.querySelectorAll(".tarjeta");
-            callcard.forEach(function(card) {
-                card.onclick = function() {
-                    //console.log(card);
-                    // var image = c.getElementByTagName('img').getAttribute("src");
-                    //console.log(this.getAttribute("nombre"));
-
-                    cargarJSONdos(this.getAttribute("data-nombre"));
-
-                    //console.log(this);
-                }
-
-            });
+            championDetail();
         })
-
+        .then(function() {
+            filterChamps();
+        })
 }
-
-//cargarJSON.appendChild = cargarJSONdos;
 
 function cargarJSONdos(nombreCampeon) {
     let onlyChampion = document.querySelector('#onlyChampion');
@@ -64,10 +48,8 @@ function cargarJSONdos(nombreCampeon) {
             return res2.json()
         })
         .then(function(result_json2) {
-            //console.log(result_json2);
             let html2 = "";
             let data_avat = result_json2.data[nombreCampeon];
-            // console.log(data_avat);
             html2 += ` <div class="contentChampionInfo">
                         <div>
                         <div class="imgprincipal">
@@ -86,7 +68,6 @@ function cargarJSONdos(nombreCampeon) {
                             </div>
                            <div class="sombra"></div>
                           </div>
-
                   </div>
                  <div class="listahabilidades">
                       <p class="infohabilidades">ABILITIES</p>
@@ -116,7 +97,6 @@ function cargarJSONdos(nombreCampeon) {
                   <button id="buttonback" class="buttonchamps">COME BACK</button>
                        </div> `;
 
-            //console.log(html2);
             onlyChampion.innerHTML = html2;
 
         }).then(function() {
@@ -126,5 +106,55 @@ function cargarJSONdos(nombreCampeon) {
     .then(function() {
         back();
     })
+}
 
+function filterChamps() {
+    var html3 = "";
+    const champsToFilter = Object.entries(window.champions);
+    var filterButtons = document.querySelectorAll(".filter");
+    for (const filterButton of filterButtons) {
+        filterButton.addEventListener('click', function() {
+            html3 = "";
+            championType = this.getAttribute("data-type");
+            if (championType == "All") {
+                filteredChamps = champsToFilter;
+            } else {
+                filteredChamps = champsToFilter.filter(function(item) {
+                    tags = item[1]["tags"];
+                    return tags.includes(championType);
+                });
+
+            }
+
+            for (var key in filteredChamps) {
+
+                let data_champion = filteredChamps[key][1];
+
+                html3 += `<div class="tarjeta-wrap">
+                            <div class="tarjeta" data-nombre="${data_champion['id']}">
+                                    <div class="adelante card1">
+                                         <h2>${data_champion['name']}</h2>
+                                         <img class="img-fluid" src="${data_champion['splash']}" alt="">
+                                    </div>
+                                   <div class="atras">
+                                 <p class="card-text">#${data_champion['blurb']}</p>
+                             </div>
+                            </div>
+                        </div>
+                    `;
+            }
+            cardsprueba.innerHTML = html3;
+            championDetail();
+        });
+    }
+
+}
+
+function championDetail() {
+    let callcard = document.querySelectorAll(".tarjeta");
+    callcard.forEach(function(card) {
+        card.onclick = function() {
+            cargarJSONdos(this.getAttribute("data-nombre"));
+        }
+    });
 }
