@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function cargarJSON() { //esta función hace la conexión y definimos como queremos que los devuleva, ya sea como texto JSON u otros metodos
 
-    fetch('http://ddragon.leagueoflegends.com/cdn/10.6.1/data/en_US/champion.json')
+    fetch('https://ddragon.leagueoflegends.com/cdn/10.6.1/data/en_US/champion.json')
         .then(res => {
             return res.json()
         }) //indicamos que queremos un json
@@ -22,7 +22,7 @@ function cargarJSON() { //esta función hace la conexión y definimos como quere
                             <div class="tarjeta" data-nombre="${data_champion['id']}">
                                     <div class="adelante card1">
                                          <h2>${data_champion['name']}</h2>
-                                         <img class="img-fluid" src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/${data_champion['id']}_0.jpg" alt="">
+                                         <img class="img-fluid" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${data_champion['id']}_0.jpg" alt="">
                                     </div>
                                    <div class="atras">
                                  <p class="card-text">#${data_champion['blurb']}</p>
@@ -43,7 +43,7 @@ function cargarJSON() { //esta función hace la conexión y definimos como quere
 
 function cargarJSONdos(nombreCampeon) {
     let onlyChampion = document.querySelector('#onlyChampion');
-    fetch('http://ddragon.leagueoflegends.com/cdn/10.5.1/data/en_US/champion/' + nombreCampeon + '.json')
+    fetch('https://ddragon.leagueoflegends.com/cdn/10.5.1/data/en_US/champion/' + nombreCampeon + '.json')
         .then(res2 => {
             return res2.json()
         })
@@ -53,7 +53,7 @@ function cargarJSONdos(nombreCampeon) {
             html2 += ` <div class="contentChampionInfo">
                         <div>
                         <div class="imgprincipal">
-                          <img class="ImgChampionInfo" src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/${nombreCampeon}_0.jpg" alt="">
+                          <img class="ImgChampionInfo" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${nombreCampeon}_0.jpg" alt="">
                           <div class="sobrelaimagen">
                              <div class="nametitle">
                             <h2 class="positionName">${data_avat['name']}</h2>
@@ -134,7 +134,7 @@ function filterChamps() {
                             <div class="tarjeta" data-nombre="${data_champion['id']}">
                                     <div class="adelante card1">
                                          <h2>${data_champion['name']}</h2>
-                                         <img class="img-fluid" src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/${data_champion['id']}_0.jpg" alt="">
+                                         <img class="img-fluid" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${data_champion['id']}_0.jpg" alt="">
                                     </div>
                                    <div class="atras">
                                  <p class="card-text">#${data_champion['blurb']}</p>
