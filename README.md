@@ -13,7 +13,7 @@ Claming:
 >On-raked es el momento exacto en el que se conectan tus habilidades con el esfuerzo de tu
 practica y el valor de tu tiempo. Un espacio que pretende acercarte la satisfacción de retarte a ti mismo, envolviéndote en caminos rigurosos que te llevarán a una constante evolución. Un camino dispuesto a activar el mayor poder que se nos fue concedido: el conocimiento.Para ser parte de una comunidad dispuesta a representar a su avatar ideal.
 
-**SI QUIERES VISUALIZAR LA APP FUNCIONAL, DA CLICK EN EL SIGUIENTE ENLACE <br>
+**SI QUIERES VISUALIZAR LA APP FUNCIONAL, DA CLICK EN EL SIGUIENTE ENLACE** <br>
 https://dianyelamaldonado.github.io/CDMX009-Data-Lovers/src/
 
 
