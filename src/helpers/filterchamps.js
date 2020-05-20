@@ -1,9 +1,10 @@
 import { championDetail } from './championdetail.js';
 
 function filterChamps() {
-    var html3 = "";
+    let html3 = "";
+    let filteredChamps = "";
     const champsToFilter = Object.entries(window.champions);
-    var filterButtons = document.querySelectorAll(".filter");
+    let filterButtons = document.querySelectorAll(".filter");
     for (const filterButton of filterButtons) {
         filterButton.addEventListener('click', function() {
             html3 = "";
@@ -18,7 +19,7 @@ function filterChamps() {
 
             }
 
-            for (var key in filteredChamps) {
+            for (let key in filteredChamps) {
                 let data_champion = filteredChamps[key][1];
                 html3 += `<div class="tarjeta-wrap">
                             <div class="tarjeta" data-nombre="${data_champion['id']}">

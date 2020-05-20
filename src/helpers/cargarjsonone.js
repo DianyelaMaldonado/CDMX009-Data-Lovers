@@ -10,7 +10,7 @@ function cargarJSON() {
             let html = '';
             let champions = result_json.data;
             window.champions = champions;
-            for (var champion in champions) {
+            for (let champion in champions) {
                 let data_champion = champions[champion];
 
                 html += `<div class="tarjeta-wrap">
