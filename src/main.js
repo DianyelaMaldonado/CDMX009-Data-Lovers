@@ -23,9 +23,7 @@ let total = slider.length - 1;
 
 
 buttonnext.onclick = function() {
-    //console.log(encounter);
     encounter.src = slider[nextimage];
-    // nextimage vale 1
     if (nextimage == total) {
         nextimage = 0;
     } else {
