@@ -1,13 +1,16 @@
 // importamos la función `example`
-import { example } from "../src/data";
+import cargarJSON from "../src/helpers/cargarjsonone.js";
+
 
 describe('example', () => {
 
-  it('debería ser una función', () => {
-    expect(typeof example).toBe('function');
-  });
+    it('debería ser una función', () => {
+        expect(typeof cargarJSON.encode).toBe('function');
+    });
 
-  describe('example', () => {
-    // escribe aquí tu test
-  });
+    // describe('example', () => {
+    //     it('debería ', () => {
+    //         expect(typeof cargarJSON.encode).toBe('function');
+    //     });
+    // });
 });

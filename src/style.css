@@ -171,11 +171,8 @@
     
     * {
         margin: 0px;
-        /*quitamos todos los margenes*/
         padding: 0px;
-        /*quitamos los rellemos*/
         box-sizing: border-box;
-        /*nos permite incluir el relleno y el borde en el ancho y alto total de un elemento.*/
     }
     
     header {
@@ -281,16 +278,13 @@
         max-width: 1100px;
         margin: 50px auto;
         display: flex;
-        /*esto para que en lugar de quedar una debajo de la otra, queden una al lado de la otra*/
         justify-content: center;
     }
     
     .tarjeta-wrap {
         width: 33.3%;
         padding: 10px;
-        /*esto es para que se vea una separación entre cada una*/
         -webkit-perspective: 800;
-        /*es para que el giro sea más visual, con una mejor apariencia*/
         perspective: 800;
     }
     
@@ -300,11 +294,8 @@
         background: url(imagenes/pruebabackground.jpg);
         position: relative;
         transform-style: preserve-3d;
-        /*esto lo que hace es que cuando haga el hover se muestre bien todo*/
         transition: .7s ease;
-        /*esta animación es para que se vea el giro de la card*/
         box-shadow: 0 10px 16px -5px rgba(0, 0, 0, 0.65);
-        /*sombras de la card*/
     }
     
     .card1 {
@@ -315,16 +306,11 @@
     .atras {
         width: 100%;
         height: 100%;
-        /*le estamos diciendo que tome el 100% de su caja padre*/
-        /*si inspeccionamos cada clase vemos que la clase adelante ocupa el 100 y que la clase atrás se ha ido abajo*/
         position: absolute;
         top: 0;
         left: 0px;
-        /*este top y left es para que se vaya a la parte superior en lugar de irse abajo*/
         -webkit-backface-visibility: hidden;
-        /*se coloca -webkit- al principio para que funcione para chrome*/
         backface-visibility: hidden;
-        /*esto es para que si un elemento rota no me muestre todo revuelto*/
     }
     
     .adelante {
@@ -345,7 +331,6 @@
     }
     
     .tarjeta-wrap:hover .tarjeta {
-        /*esto lohacemos para que cuando pasemos el mouse por encima de la card haya ese efecto de rotación*/
         transform: rotateY(180deg);
     }
     
@@ -360,7 +345,6 @@
         overflow: hidden;
         flex-wrap: wrap;
     }
-    /*EMPIEZA LA SEGUNDA PÁGINA CON INFO DE UN SOLO CHAMP*/
     
     .contentChampionInfo {
         position: absolute;
@@ -436,7 +420,6 @@
         font-family: 'Russo One', sans-serif;
         text-shadow: 2px 2px 4px #000000;
     }
-    /*EMPIEZA LA SEGUNDA PÁGINA CON INFO DE UN SOLO CHAMP*/
     
     .imgtags {
         width: 45px;
