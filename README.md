@@ -13,6 +13,16 @@ Claming:
 >On-raked es el momento exacto en el que se conectan tus habilidades con el esfuerzo de tu
 practica y el valor de tu tiempo. Un espacio que pretende acercarte la satisfacción de retarte a ti mismo, envolviéndote en caminos rigurosos que te llevarán a una constante evolución. Un camino dispuesto a activar el mayor poder que se nos fue concedido: el conocimiento.Para ser parte de una comunidad dispuesta a representar a su avatar ideal.
 
+**SI QUIERES VISUALIZAR LA APP FUNCIONAL, DA CLICK EN EL SIGUIENTE ENLACE** <br>
+https://dianyelamaldonado.github.io/CDMX009-Data-Lovers/src/
+
+
+
+
+
+**El resultado final en las vistas**
+![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/responsive-desing-data-lovers-big.jpg)
+
 **Manifiesto :**
 >Un homONrakeds : Eligio representar a su avatar ideal, el que es belicoso en la batalla al auxiliar.
 
@@ -103,49 +113,7 @@ a continuación una pequeña muestra visual:**
 ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/responsivetabletenhorizontal.png)
 
 
-___
-***Objetivos de aprendizaje*** <br>
-El objetivo principal de este proyecto es que, entendiendo las necesidades de tus usuarios, aprendas a diseñar y construir una interfaz web donde se pueda visualizar y manipular data.
 
-**UX** <br>
-✅ Diseñar la aplicación pensando y entendiendo al usuario <br>
-✅Crear prototipos para obtener feedback e iterar <br>
-✅Aplicar los principios de diseño visual (contraste, alineación, jerarquía).<br>
-✅ Planear y ejecutar tests de usabilidad.<br>
- 
-**HTML y CSS** <br>
-✅Entender y reconocer por qué es importante el HTML semántico. <br>
-✅Identificar y entender tipos de selectores en CSS.<br>
-✅Entender como funciona flexbox en CSS. <br>
-✅Construir tu aplicación respetando el diseño planeado (maquetación). <br>
- 
-**DOM** <br>
-✅Entender y reconocer los selectores del DOM (querySelector | querySelectorAll). <br>
-✅Manejar eventos del DOM. (addEventListener). <br>
-✅Manipular dinámicamente el DOM. (createElement, appendchild, innerHTML, value). <br>
- 
-**Javascript** <br>
- Manipular arrays (filter | map | sort | reduce).<br>
-✅Manipular objects (key | value).<br>
-✅Entender el uso de condicionales (if-else | switch).<br>
-✅Entender el uso de bucles (for | forEach).<br>
-🚫Entender la diferencia entre expression y statements.<br>
-✅Utilizar funciones (parámetros | argumentos | valor de retorno).<br>
-🚫Entender la diferencia entre tipos de datos atómicos y estructurados.<br>
-🚫Utilizar ES Modules (import | export).<br>
- 
-**Pruebas Unitarias (testing)** <br>
-🚫Testear funciones (funciones puras).<br>
- 
-**Git y GitHub** <br>
-✅Ejecutar comandos de git (add | commit | pull | status | push).<br>
-✅Utilizar los repositorios de GitHub (clone | fork | gh-pages).<br>
-➕➖Colaborar en Github (pull requests).<br>
- 
-**Buenas prácticas de desarrollo** <br>
-🚫Organizar y dividir el código en módulos (Modularización).<br>
-✅Utilizar identificadores descriptivos (Nomenclatura | Semántica).<br>
-✅Utilizar linter para seguir buenas prácticas (ESLINT).<br>
  
  
  
