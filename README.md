@@ -17,6 +17,12 @@ practica y el valor de tu tiempo. Un espacio que pretende acercarte la satisfacc
 https://dianyelamaldonado.github.io/CDMX009-Data-Lovers/src/
 
 
+
+
+
+**El resultado final en las vistas**
+![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/responsive-desing-data-lovers-big.jpg)
+
 **Manifiesto :**
 >Un homONrakeds : Eligio representar a su avatar ideal, el que es belicoso en la batalla al auxiliar.
 
@@ -107,8 +113,7 @@ a continuación una pequeña muestra visual:**
 ![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/responsivetabletenhorizontal.png)
 
 
-**El resultado final en las vistas**
-![alt text](https://raw.githubusercontent.com/DianyelaMaldonado/CDMX009-Data-Lovers/master/Readme/responsive-desing-data-lovers-big.jpg)
+
  
  
  
